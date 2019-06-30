@@ -10,6 +10,10 @@
 #### Ambiente de desenvolvimento:
 Programa desenvolvido em Python (3.6.7), utilizando a biblioteca [Lark](https://github.com/lark-parser/lark), Ubuntu 18.04 e PyCharm 2019.1.3 (Community Edition).
 
+### Descrição da linguagem:
+A DSL proposta neste trabalho tem como objetivo prover uma linguagem que permita realizar operações matemáticas. Optamos por utilizar a linguagem Python para o desenvolvimento, pela simplicidade de criação de artefatos em geral.
+A linguagem permite utilizar artefatos de nomeação de variáveis, além de construção de comandos de seleção IF e repetição WHILE. Permitindo também artefatos de abstração conhecidos como função ou procedimento, geralmente utilizados nas diversas outras linguagens de programação. 
+
 ### Descrição dos arquivos:
 
 #### Instalando o Lark:
