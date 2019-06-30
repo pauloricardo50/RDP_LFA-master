@@ -12,6 +12,28 @@ Programa desenvolvido em Python (3.6.7), utilizando a biblioteca [Lark](https://
 
 ### Descrição dos arquivos:
 
+
+### Descrição da linguagem:
+A DSL proposta neste trabalho tem como objetivo prover uma linguagem que permita realizar operações matemáticas aritméticos. Optamos por utilizar a linguagem Python para o desenvolvimento, pela simplicidade de criação de artefatos em geral.
+A linguagem permite utilizar artefatos de nomeação de variáveis, além de construção de comandos de seleção IF e repetição WHILE. Permitindo também artefatos de abstração conhecidos como função ou procedimento, geralmente utilizados nas diversas outras linguagens de programação. 
+
+
+### Tabela com Operadores e Expressões
+
+Operador | Descrição
+--------- | ------
+=     | Atribuição. Ex.: <variável> = <conteúdo>;
+" "    | String. Ex.: “<caracteres>”;
+{ }    | Área que pertence a um método ou expressão. Ex.: <método>{<operações>} ou <expressão>{<operações>};
++,-,*,/,^ | Operadores aritiméticos;
+    
+    
+Expressão | Descrição
+--------- | ------
+def     | Expressão que define um método. Ex.: def <nome-do-método>(<argumentos>){ };
+if    | Expressão que indica uma bifurcação exclusiva. Ex.: if (<variável-de-origem>, <variável-de-destino>) (<string>){<operações>};
+while   | Expressão que indica um loop. Ex.: while (<variável-de-origem>, <variável-de-destino>) (<string>){<operações>*};
+
 #### Instalando o Lark:
 Para poder instalar o Lark, primeiro precisamos instalar o [Pip](https://pypi.org/project/pip/).
 
@@ -25,7 +47,7 @@ Para poder instalar o Lark, primeiro precisamos instalar o [Pip](https://pypi.or
 
 3. Para verificar se o Pip foi instalado corretamente, fazemos:
 
-    ``$ pip3 --version``
+    ``$ pip3 --version``c
 
     Teremos como retorno algo similar a:
 
