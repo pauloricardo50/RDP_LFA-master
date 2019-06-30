@@ -18,11 +18,11 @@ Parsertab.py:
 A DSL proposta neste trabalho tem como objetivo prover uma linguagem que permita realizar operações matemáticas aritméticos. Optamos por utilizar a linguagem Python para o desenvolvimento, pela simplicidade de criação de artefatos em geral.
 A linguagem permite utilizar artefatos de nomeação de variáveis, além de construção de comandos de seleção IF e repetição WHILE. Permitindo também artefatos de abstração conhecidos como função ou procedimento, geralmente utilizados nas diversas outras linguagens de programação. 
 
-### Justificativa uso da biblioteca Ply
+### Justificativa uso da biblioteca Ply:
 
 
 
-### Tabela com Operadores e Expressões
+### Tabela com Operadores e Expressões:
 
 Operador | Descrição
 --------- | ------
@@ -37,6 +37,14 @@ Expressão | Descrição
 def     | Expressão que define um método. Ex.: def <nome-do-método>(<argumentos>){ };
 if    | Expressão que indica uma bifurcação exclusiva. Ex.: if (<variável-de-origem>, <variável-de-destino>) (<string>){<operações>};
 while   | Expressão que indica um loop. Ex.: while (<variável-de-origem>, <variável-de-destino>) (<string>){<operações>*};
+
+
+### Descrição dos arquivos:
+
+Arquivo | Descrição
+--------- | ------
+parser.py     | Arquivo contendo a gramática em EBNF da linguagem e demais funções desenvolvidas em python. 
+pasrsertab.py    | ....
 
 ### Gramática
 ````
